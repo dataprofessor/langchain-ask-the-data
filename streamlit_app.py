@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
-from langchain.llms import OpenAI
+#from langchain.llms import OpenAI
+from langchain.chat_models import ChatOpenAI
 from langchain.agents import create_pandas_dataframe_agent
 
 # Page title
@@ -16,7 +17,8 @@ def load_csv(input_csv):
 
 # Generate LLM response
 def generate_response(csv_file, input_query):
-  llm = OpenAI(temperature=0, openai_api_key=openai_api_key)
+  #llm = OpenAI(temperature=0, openai_api_key=openai_api_key)
+  llm = ChatOpenAI(model_name='gpt-3.5-turbo', temperature=0)
   df = load_csv(csv_file)
   # Create Pandas DataFrame Agent
   agent = create_pandas_dataframe_agent(llm, df, verbose=True)
