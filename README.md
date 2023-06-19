@@ -1,10 +1,10 @@
 # 🦜🔗 Langchain - Pandas Agent App
 
-Build an LLM powered Pandas Agent App with Langchain and Streamlit.
+Build an LLM powered Pandas DataFrame Agent App with Langchain and Streamlit.
 
 ## Overview of the App
 
-This app uses the Pandas Agent from Langchain to allow you to ask questions about a Pandas DataFrame.
+This app uses the Pandas DataFrame Agent from Langchain to allow you to ask questions about a Pandas DataFrame.
 
 ## Demo App
 
