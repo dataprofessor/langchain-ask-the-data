@@ -1,14 +1,14 @@
-# 🦜🔗 Langchain - Ask the CSV App
+# 🦜🔗 Langchain - Pandas Agent App
 
-Build an LLM powered Ask the CSV app with Langchain and Streamlit.
+Build an LLM powered Pandas Agent App with Langchain and Streamlit.
 
 ## Overview of the App
 
-........
+This app uses the Pandas Agent from Langchain to allow you to ask questions about a Pandas DataFrame.
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://langchain-ask-the-csv.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://langchain-pandas-agent.streamlit.app/)
 
 ## Get an OpenAI API key
 
