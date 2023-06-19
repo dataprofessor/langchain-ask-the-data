@@ -8,7 +8,7 @@ Build an LLM powered Ask the CSV app with Langchain and Streamlit.
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://langchain-quickstart.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://langchain-ask-the-csv.streamlit.app/)
 
 ## Get an OpenAI API key
 
