@@ -3,4 +3,3 @@ openai
 langchain
 pandas
 tabulate
-matplotlib
