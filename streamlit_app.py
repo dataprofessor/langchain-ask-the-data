@@ -33,7 +33,7 @@ uploaded_file = st.file_uploader('Upload a CSV file', type=['csv'])
 # Query text
 question_list = [
   'How many rows are there?',
-  'What is the range of values for MolWt with median logS greater than 0?',
+  'What is the range of values for MolWt with logS greater than 0?',
   'How many rows have MolLogP value greater than 0.',
   'Other']
 query_text = st.selectbox('Select an example query:', question_list, disabled=not uploaded_file)
