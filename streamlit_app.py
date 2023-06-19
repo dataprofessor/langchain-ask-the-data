@@ -4,8 +4,8 @@ from langchain.llms import OpenAI
 from langchain.agents import create_pandas_dataframe_agent
 
 # Page title
-st.set_page_config(page_title='🦜🔗 Ask the CSV App')
-st.title('🦜🔗 Ask the CSV App')
+st.set_page_config(page_title='🦜🔗 Pandas Agent App')
+st.title('🦜🔗 Pandas Agent App')
 
 # Load CSV file
 def load_csv(input_csv):
