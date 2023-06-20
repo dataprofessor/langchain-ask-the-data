@@ -1,6 +1,6 @@
 # 🦜🔗 Langchain - Ask the Data App
 
-Build an LLM powered Ask the Data App with Langchain (using the `Pandas DataFrame Agent`) and Streamlit.
+Build an LLM powered Ask the Data App with Langchain (using the Pandas DataFrame Agent) and Streamlit.
 
 ## Overview of the App
 
