@@ -20,9 +20,9 @@ You can get your own OpenAI API key by following the following instructions:
 ## Try out the app
 
 Once the app is loaded, do the following in sequential order:
-1. Upload a CSV file
-2. Select an example query or provide your own custom query by selecting the *Other* option
-3. Enter you OpenAI API key
+1. Upload a CSV file (you can also tweak the underlying code to have it read in other tabular formats such as Excel or tab delimited files.
+2. Select an example query from the drop-down menu or provide your own custom query (by selecting the *Other* option)
+3. Enter your OpenAI API key
 
 That's all and the Pandas DataFrame Agent will start to work on your query. 
 
