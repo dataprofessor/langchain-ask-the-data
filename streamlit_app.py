@@ -38,6 +38,7 @@ query_text = st.selectbox('Select an example query:', question_list, disabled=no
 if query_text is 'Other':
   query_text = st.text_input('Enter your query:', placeholder = 'Enter query here ...', disabled=not uploaded_file)
 
+# App logic
 openai_api_key = st.text_input('OpenAI API Key', type='password', disabled=not (uploaded_file and query_text))
 if not openai_api_key.startswith('sk-'):
   st.warning('Please enter your OpenAI API key!', icon='⚠')
