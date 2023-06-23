@@ -8,7 +8,7 @@ This app uses the Pandas DataFrame Agent from Langchain to allow you to ask ques
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://langchain-pandas-agent.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://langchain-ask-the-data.streamlit.app/)
 
 ## Get an OpenAI API key
 
