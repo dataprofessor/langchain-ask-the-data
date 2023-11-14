@@ -1,5 +1,5 @@
 streamlit
 openai
-langchain
+langchain==0.0.239
 pandas
 tabulate
